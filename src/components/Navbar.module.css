@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    gap: 20px;
+    border: 1.31px solid #EAEAEA;
+    border-radius: 107.06px;
+    padding: 10px 20px;
+}
+
+.nav div:first-child{
+    margin-right: auto;
+}

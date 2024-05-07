@@ -1,0 +1,13 @@
+.button {
+  width: 250px;
+  height: 80px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  border-radius: 107.06px;
+  border: 1.31px solid #EAEAEA;
+  transition: .3s;
+  text-align: center;
+}
+
+.button:hover {
+    background-color: #F1F1F1;
+}
