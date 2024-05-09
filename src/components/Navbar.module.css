@@ -1,11 +1,12 @@
 .nav{
     display: flex;
     align-items: center;
-    margin: 20px 30px;
+    height: 111.17px;
+    margin: 20px auto;
     gap: 20px;
     border: 1.31px solid #EAEAEA;
     border-radius: 107.06px;
-    padding: 10px 20px;
+    padding: 16.97px 20.89px;
 }
 
 .nav div:first-child{

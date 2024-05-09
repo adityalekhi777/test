@@ -1,3 +1,11 @@
-.input input{
-    border: solid 1px black;
+.input input {
+  background-color: #EFEFEF;
+  width: 417px;
+  height: 74px;
+  padding: 24px 36px 24px 36px;
+  gap: 10px;
+  border-radius: 64px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin: 10px;
 }

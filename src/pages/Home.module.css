@@ -1,10 +1,198 @@
-
-
-
-.heading{
-
+.container {
+  margin: 24px;
 }
 
-.hero_image{
-    width: 600px;
+.header {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.success {
+  font-family: Covered By Your Grace;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2da950;
+}
+
+.header h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.sectionOne {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px auto;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-image {
+  object-fit: cover;
+  object-position: 0px 10%;
+  width: 506.98px;
+  height: 546.27px;
+  border-radius: 50.7px;
+}
+
+.boxOne {
+  position: absolute;
+  background-color: white;
+  width: 267.82px;
+  height: 239px;
+  padding: 30px;
+  top: 144px;
+  right: 384px;
+  border-radius: 27.11px;
+}
+
+.boxOne h3 {
+  font-family: Switzer;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.boxOne p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+}
+
+.boxTwo {
+  position: absolute;
+  width: 260px;
+  height: 88px;
+  top: 412px;
+  right: 320px;
+  padding: 16px 32px 16px 16px;
+  border-radius: 111.54px;
+  background-color: white;
+  display: flex;
+}
+
+
+
+.boxTwo div:first-child{
+  background-color: #DDEFE0;
+  border-radius: 100px;
+  width: 52px;
+  height: 52px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTwo div:last-child{
+margin-left: 24px;
+}
+
+.boxTwo h3 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.boxTwo p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: left;
+  color: #828282;
+}
+
+.boxThree {
+  position: absolute;
+  width: 290.49px;
+  height: 239px;
+  top: 357px;
+  left: 292px;
+  background-color: #002e18;
+  padding: 34px 30px 40px 36px;
+  gap: 20px;
+  border-radius: 28.36px;
+  border: 1.18px 0px 0px 0px;
+}
+
+.boxThree h3 {
+  font-family: Switzer;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+}
+
+.boxThree h3 span {
+  font-family: Switzer;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #a6a3a0;
+}
+
+.boxThree p {
+  font-family: Manrope;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #CCCCCC;
+}
+
+.sectionTwo {
+  display: flex;
+  border-radius: 40px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 145px auto;
+  margin-bottom: 52px;
+  background-color: #e8eee7;
+  padding: 60px 40px;
+  height: 600px;
+}
+
+.sectionTwo div p:first-child {
+  font-family: Covered By Your Grace;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2da950;
+}
+
+.sectionTwo div p:last-child {
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+  text-align: left;
 }
